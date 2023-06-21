@@ -1,0 +1,33 @@
+#main{
+    height: 500px;
+    width: 1200px;
+    background-color: aqua;
+    background-image: linear-gradient(to bottom right, orange, green);
+     color: aliceblue;
+    margin-left: 144px;
+    margin-top: 98px;
+    margin-bottom: 100px;
+    /* margin-right: 3; */
+
+}
+h1{
+    color: aliceblue;
+}
+
+
+.contain{
+    display: flex;
+}
+
+.image{
+   
+}
+body{
+    background-color: purple;
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+.image:hover {
+    -ms-transform: scale(2.5); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Safari 3-8 */
+    transform: scale(2.5); 
+  }
